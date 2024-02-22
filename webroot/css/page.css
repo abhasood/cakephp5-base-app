@@ -1,0 +1,44 @@
+.user-name{
+    font-size: 13px;
+    color: #9b4dca !important;
+}
+.user-name:hover{
+    color: #606c76;
+}
+.center-box {
+    min-height: 100vh !important;
+    align-items: center;
+    display: flex;
+}
+
+.topsubnav {
+    background-color: #d33c44;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 112rem;
+    margin: 0 auto;
+}
+
+.topsubnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topsubnav a:hover {
+    background-color: #931f1f;
+}
+
+.topsubnav a.active {
+    background-color: #931f1f;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+}

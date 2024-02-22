@@ -1,0 +1,115 @@
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 7px 14px 0 rgba(60, 66, 87, 0.1),
+        0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+
+.topnav a {
+    float: left;
+    font-size: 16px;
+    color: var(--color-lightgray);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav .split {
+    float: right;
+    background-color: #04aa6d;
+    color: var(--color-lightgray);
+}
+
+.topnav .dropdown {
+    overflow: hidden;
+}
+
+.topnav .dropdown .dropbtn {
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    color: var(--color-lightgray);
+    padding: 8px 16px;
+    background-color: #fff;
+    font-family: inherit;
+    margin: 0;
+    height: auto;
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    border-radius: 0px;
+}
+
+.topnav a:hover,
+.topnav .dropdown:hover .dropbtn {
+    color: #000;
+}
+
+.topnav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 126px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.topnav .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.topnav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.topnav .top-nav-title a {
+    font-size: 20px;
+    color: var(--color-cakephp-red);
+    padding: 11px;
+}
+.topnav .top-nav-title span {
+    color: var(--color-cakephp-gray);
+}
+
+
+.arrow {
+    border: solid var(--color-lightgray);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 2px 4px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.main {
+    margin-top: 30px;
+}
